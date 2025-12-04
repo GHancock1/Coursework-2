@@ -7,19 +7,13 @@ Coursework 2 for ACT module
 
 &nbsp;
 ## Chosen dataset
-For this project, the dataset chosen was the *Kepler Exoplanet Search Results* dataset from [kaggle.com](https://www.kaggle.com/datasets/nasa/kepler-exoplanet-search-results). This choice was motivated largely by the intermediate size of the dataset, at around 10,000 rows, large enough to avoid overfitting whilst remaining small enough to be   
-The Kaggle page lists the following as inspiration for projects with the dataset: "How often are exoplanets confirmed in the existing literature disconfirmed by measurements from Kepler? How about the other way round?"; "What general characteristics about exoplanets (that we can find) can you derive from this dataset?"; and "What exoplanets get assigned names in the literature? What is the distribution of confidence scores?".  
-  
-**-> What do I want to explore in the dataset?**
-- effect of planetary radius on koi score?
-- estimating values for objects missing data
-
+For this project, the dataset chosen was the *Kepler Exoplanet Search Results* dataset from [kaggle.com](https://www.kaggle.com/datasets/nasa/kepler-exoplanet-search-results). This choice was motivated largely by the intermediate size of the dataset, at around 10,000 rows, large enough to avoid overfitting whilst remaining small enough to be handled without incredibly long processing times.  
 
 The dataset's column headings are quite obscure, so the NASA Exoplanet Archive definitions for the headings are given [here](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).  
 
 &nbsp;
 ## Project Idea
-How often are exoplanets confirmed in literature disconfirmed by Kepler's measurements? To find out, we would need to compare KOI disposition (candidacy disposition from Exoplanet Archive) to KOI pdisposition (disposition from Kepler data analysis).   
+How much of an impact do the properties of a star have on an object's candidacy? If so, are some properties more important than others? To explore this question, we will need to investigate the relationship between an object's KOI Score in comparison to various stellar parameters.   
 &nbsp;
 ## Structure of this project
 This project is structed as follows: README (this file) and  license information, a csv file containing the dataset, and a folder containing a functions.py file for useful functions, and three folders for parts 1, 2, and 3 of the project.  
