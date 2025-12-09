@@ -7,9 +7,9 @@ Coursework 2 for ACT module
 
 &nbsp;
 ## Chosen dataset
-For this project, the dataset chosen was the *Kepler Exoplanet Search Results* dataset from [kaggle.com](https://www.kaggle.com/datasets/nasa/kepler-exoplanet-search-results). This choice was motivated largely by the intermediate size of the dataset, at around 10,000 rows, large enough to avoid overfitting whilst remaining small enough to be handled without incredibly long processing times.  
+For this project, the dataset chosen was the *Kepler Exoplanet Search Results* dataset from [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative). This choice was motivated largely by the intermediate size of the dataset, at around 10,000 rows - large enough to avoid overfitting whilst remaining small enough to be handled without incredibly long processing times - as well as having several possiblities to look into.  
 
-The dataset's column headings are quite obscure, so the NASA Exoplanet Archive definitions for the headings are given [here](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).  
+The dataset's column headings are quite obscure, so the Exoplanet Archive definitions for the headings are given [here](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).  
 
 &nbsp;
 ## Project Idea
