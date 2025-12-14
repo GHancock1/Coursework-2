@@ -10,7 +10,6 @@ Coursework 2 for ACT module
 For this project, the dataset chosen was the *Kepler Exoplanet Search Results* dataset from [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative). This choice was motivated largely by the intermediate size of the dataset, at around 10,000 rows - large enough to avoid overfitting whilst remaining small enough to be handled without incredibly long processing times - as well as having several possiblities to look into.  
 
 The dataset's column headings are quite obscure, so the Exoplanet Archive definitions for the headings are given [here](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).  
-
 &nbsp;
 ## Project Idea
 How much of an impact do the properties of a star have on an object's candidacy? If so, are some properties more important than others? To explore this question, we will need to investigate the relationship between an object's KOI Score in comparison to various stellar parameters.   
